@@ -17,8 +17,9 @@ c>=1 ?console.log("its a positive ") : console.log("not positive")
 
 //check num having 4 at the units place or not
 
-
-
+let d=10000;
+d.length==4 ? console.log("its 4 unit num") : console.log("not a 4 unit")
+console.log(d)
 
 
 //check its a 3 digit num or not
@@ -31,10 +32,24 @@ e/2==0 ? console.log("its an even num ") : console.log("its an odd num")
 
 //to print greatest num in given two num
 var g=[200,3000];
+let asc=g.sort((a,b)=>a-b);
+console.log(g[g.length-1])
 
 //to print least num in given two num
+var h=[200,3000];
+let asce=h.sort((a,b)=>a-b);
+console.log(h[0])
+
+
 //to print greatest num in given 3 num
+var j=[20,330,40]
+let p=Math.max(...j)
+console.log(p)
+
 //to print least num in given 3 num
+var y=[45,44,96,]
+let k=y.sort((a,d)=>a-b);
+console.log(k[0])
 
 
 //wap to print given 3 num in ascending order or not
@@ -47,3 +62,8 @@ console.log(num)
 let numbers=[55,95,20,1,59]
 let descending_order =numbers.sort((a,b) => b-a);
 console.log(numbers)
+
+//wap to print highest and lowest num in given num
+let s=[9,33,6,77,85]
+let x =s.sort((a,b) => a-b);
+console.log(x[0], x[x.length-1])

@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <script type="text/javascript" src="./events.js"> </script>
+        <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    </head>
+    <body>
+        
+        <h1 style="text-align-last: center; padding: 10px;">JAVASCRIPT EVENTS</h1>
+                <div class="container p-5">
+                    <div class="row">
+                        <div class="col-lg-4">
+                                <h3>Mouse Over Event</h3>
+                                <p>Change the color of the background from red to green on mouse over event</p>
+                                <button class="btn btn-lg" id="change" onmouseover="changecolor()" style="background-color: red;">Mouse Over</button>
+                        </div>
+                        <div class="col-lg-4">
+                                <h3>Mouse Out Event</h3>
+                                <p>Change the color of the background from blue to yellow on mouse out event</p>
+                                <button class="btn btn-lg" id="color" onmouseout="changecolor1()" Style="background-color:blue">Mouse out</button>
+                        </div>
+                        <div class="col-lg-4">
+                                <h3>On Click Event</h3>
+                                <p>Change the color of the background from aqua to grey on click event</p>
+                                <button class="btn btn-lg" id="color1" onclick="changecolor2()" Style="background-color:aqua">On click</button>  
+                        </div>
+                     </div>
+                    </div>
+        
+                    <div class="container p-5">
+                        <div class="row">
+                            <div class="col-4">
+                                <h3>On Double Click Event</h3>
+                                <p>Change the color of the background from yellowgreen to orange on double click event</p>
+                                <button  class="btn btn-lg"id="color2" ondblclick="changecolor3()" Style="background-color:yellowgreen">Double click</button>
+                            </div>
+                            <div class="col-4">
+                                <h3>On Focus Event</h3>
+                                <p>Change the color of the background from beige to grey on focus event</p>
+                                <input id="color3" onfocus="changecolor4()" type="text" >
+                            </div>
+                            <div class="col-4">
+                                <h3>On Blur Event</h3>
+                                <p>Change input from lower case to upper case on blur event</p>
+                                <input id="case" onblur="changecase()"  type="text">
+                            </div>
+                        </div>
+                    </div>
+
+    </body>
+    </html>

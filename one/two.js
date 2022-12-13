@@ -1,7 +1,9 @@
+//to view data in live server console
 var a=400;
 var b=500;
 console.log("hello gm")
 console.log(a/b)
+
 function wish(){
   console.log("pragna sandireddy")
 }
