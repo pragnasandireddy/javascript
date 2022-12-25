@@ -1,0 +1,27 @@
+//alert and  span of registration form
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <form onsubmit=" return validate()">
+            <label>User Name</label>
+            <input type="text" id="username"/><br>
+            <span  id="msg" style="color:red">Please enter the Name</span><br>
+            <input type="Submit"/>
+        </form>
+        <script>
+            function validate(){
+                /*let tag_ref = document.getElementById("username");
+                console.log(tag_ref)*/
+                let name = document.getElementById("username").value;
+                console.log(name)
+                if (name==""){
+                    alert("please enter the name");
+                }
+                return false
+            }
+        </script>
+    </body>
+</html>
