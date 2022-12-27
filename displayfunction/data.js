@@ -8,11 +8,11 @@ tag_ref.innerHTML=" <tr><td>101</td></tr> goodmorning "
 
 function displaydata(){
     let row=""
-    for(emo of employee){
+    for(emp of employee){
         row=row+`<tr>
-                <td>${emo.id}</td>
-                <td>${emo.name}</td>
-                <td>${emo.sal}</td>
+                <td>${emp.id}</td>
+                <td>${emp.name}</td>
+                <td>${emp.sal}</td>
                 </tr>`
     }
     document.getElementById("rajini").innerHTML=row

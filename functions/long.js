@@ -1,3 +1,4 @@
+//write a program to find out the longest word
 let languages= ["c++","java","python","ruby","javascript"];
 function longestword(arr){
  let result='';

@@ -998,6 +998,8 @@ let employee=[{"id":1,"first_name":"Angel","last_name":"Bennell","email":"abenne
 {"id":998,"first_name":"Belvia","last_name":"Marrow","email":"bmarrowrp@shareasale.com","gender":"Genderfluid"},
 {"id":999,"first_name":"Taryn","last_name":"Touzey","email":"ttouzeyrq@shop-pro.jp","gender":"Female"},
 {"id":1000,"first_name":"Dani","last_name":"Stickney","email":"dstickneyrr@yellowbook.com","gender":"Polygender"}]
+
+
 function displaydata(){
     let row=""
     for(emp of employee){

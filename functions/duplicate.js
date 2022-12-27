@@ -1,5 +1,5 @@
+//WAP to remove duplicates
 const names=['john','jack','rose','daniel','John','Rose']
-
 function removeduplicate(arr){
     let newnames='';
     for(let i=0;i<arr.length ; i++){
@@ -9,4 +9,5 @@ function removeduplicate(arr){
     return newnames;
 
 }
+
 console.log(removeduplicate(names));

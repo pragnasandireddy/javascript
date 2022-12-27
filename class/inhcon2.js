@@ -10,7 +10,7 @@ class Account{
 }
 class Savings_account extends Account{
     min_bal=10000
-    //reausing the existing functionality>
+    //reusing the existing functionality>
     constructor(id,name,sal){
         super(id,name) //to invoke the parent class constructor parameters 
         this.sal=sal;

@@ -19,7 +19,7 @@ c>=1 ?console.log("its a positive ") : console.log("not positive")
 
 let d=10000;
 d.length==4 ? console.log("its 4 unit num") : console.log("not a 4 unit")
-console.log(d)
+
 
 
 //check its a 3 digit num or not
@@ -48,8 +48,8 @@ console.log(p)
 
 //to print least num in given 3 num
 var y=[45,44,96,]
-let k=y.sort((a,d)=>a-b);
-console.log(k[0])
+let k=Math.min(...y)
+console.log(k)
 
 
 //wap to print given 3 num in ascending order or not

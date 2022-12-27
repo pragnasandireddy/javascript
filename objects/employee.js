@@ -999,6 +999,7 @@ let emp=[{"id":1,"first_name":"Angel","last_name":"Bennell","email":"abennell0@o
 {"id":999,"first_name":"Taryn","last_name":"Touzey","email":"ttouzeyrq@shop-pro.jp","gender":"Female"},
 {"id":1000,"first_name":"Dani","last_name":"Stickney","email":"dstickneyrr@yellowbook.com","gender":"Polygender"}]
 /*for(emp of emp){
+    console.log(emp)
     console.log(emp.sal)
     console.log(emp.name)
     console.log(emp.id)

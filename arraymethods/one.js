@@ -1,4 +1,4 @@
-let runs=[1,3,6,0,2]
+let runs=[1,3,6,0,6,2]
 let newruns=runs.push(4);
 console.log(runs)
 console.log(newruns)
